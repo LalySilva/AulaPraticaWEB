@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--LALESCA CRUZ DE OLIVEIRA SILVA - RU4329756-->
+    <title>Portifólio Lalesca</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+</head>
+<body>
+ <!-- Cabeçalho da página -->   
+<header>
+    <section>
+        <h1 class="p1">Lalesca Cruz - Portifólio Pessoal</h1>
+    </section>
+<!-- Seção "topo" com links âncora --> 
+    <section id="t1">
+        <ul>
+            <!-- Links âncora para as seções abaixo -->
+            <li><a href="#s10">Sobre</a></li>
+            <li><a href="#f10">Formação Educacional</a></li>
+            <li><a href="#p10">Portifólio</a></li>
+            <li><a href="#c10">Contato</a></li>
+        </ul>
+    </section>
+    </header>
+    <!-- Conteúdo principal da página -->
+    <main>
+    <div id="corpo">
+        <aside class="a1" id="s10" ><!-- Seção "Sobre" -->
+        <h1>Sobre</h1>
+        <!-- Texto de apresentação -->
+        <h3>Apresentação</h3>
+            <p>Me chamo Lalesca Cruz de Oliveira Silva, tenho 27 anos, sou casada e mãe de um filho chamado João Marcos, de 6 anos.
+            Sou estudande da Uninter, estou cursando o primeiro ano de Análise e Desenvolvimento de Sistemas(ADS) e estou focando em 
+            aprender HTML, CSS e JS, assim como outras ferramentas para desenvolvimento Front-End.<br><br>
+             
+            </p>
+         <!-- Descrição dos hobbies -->
+        <h3>Hobbies</h3>
+            <p> Meus hobbies são poucos, tais como: Ler a Bíblia e brincar com meu filho.
+            </p>
+        </aside>
+        <!-- Seção "Formação Educacional" -->
+        <div class="e1" id="f10">
+        <h1>Formação Educacional</h1>
+        <ol>
+            <!-- Lista de formação educacional -->
+            <li><strong>Ensino Médio Completo</strong></li>
+            <p>Formada no Ensino Médio pelo Encejja no ano de 2022.
+            </p>
+            <li><strong>Análise e Desenvolvimento de Sistemas(ADS)</strong></li>
+            <p>Cursando o primeiro ano na Uninter.
+            </p>
+            <li><strong>Inglês Básico</strong></li>
+            <p>Estudando Inglês pela Uninter.
+            </p>
+        </ol>
+        </div>
+        <!-- Seção "Portfólio" -->
+        <div class="t2" id="p10">
+            <h1>Portifólio</h1>
+        <p>Até o presente momento deste curso, o único trabalho que tenho é este:</p>
+        <a class="b1" href="https://lally30.github.io/lalescauninter/" target="_blank">Portfólio Pessoal Uninter</a>
+        </div>
+        <footer>
+            <div class="c1" id="c10">
+                <h2>Entre em Contato</h2>
+                <form id="formulario" action="javascript:void(0);" onsubmit="enviarWhatsApp()">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" required>
+            
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" rows="4" required></textarea>
+            
+                    <button type="submit">Enviar para o WhatsApp</button>
+                </form>
+            </div>
+        </footer>
+    </div>
+    </main>
+
+</body>
+</html>

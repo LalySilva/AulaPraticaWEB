@@ -1,0 +1,165 @@
+    /* Estilos para o cabeçalho */
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 0; /* Reduzindo o espaçamento superior e inferior */
+        text-align: center;
+        position: fixed;
+        width: 100%;
+        top: 0;
+    }
+    body{
+        padding-top: 110px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+/* Estilos para a lista de links âncora */
+#t1 ul {
+    list-style: none;
+    padding: 0;
+    text-align: center; /* Centralizando os links */
+}
+
+#t1 li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#t1 a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s; /* Efeito de transição suave na mudança de cor */
+}
+
+/* Adiciona estilo ao hover */
+#t1 a:hover {
+    color: #0073e6; /* Cor alterada quando o mouse está sobre o link */
+}
+
+    /* Estilos para a seção "Sobre" */
+    .a1 {
+        background-color: #f0f0f0;
+        padding: 10px;
+        border: 1px solid #ccc;
+        width: 95%;
+        margin-top: 100px;
+        margin: 10px auto; /* Margem superior e inferior de 200px e margem automática para centralizar horizontalmente */
+    }
+    
+    /* Ajuste o tamanho e a margem para dispositivos menores */
+    @media (max-width: 768px) {
+        .a1 {
+            width: 90%; /* Reduza a largura para 90% em telas menores */
+            margin: 100px auto; /* Reduza a margem superior e inferior e centralize horizontalmente */
+        }
+    }
+    
+
+    /* Estilos para o conteúdo da seção "Sobre" */
+    .a1 h1 {
+        font-size: 24px;
+    }
+
+    .a1 h3 {
+        font-size: 20px;
+    }
+
+    .a1 p {
+        font-size: 16px;
+    }
+
+    /* Estilos para a seção "Formação Educacional" */
+    .e1 {
+        background-color: #f0f0f0;
+        padding: 20px;
+        margin: 20px;
+        border: 1px solid #ccc;
+    }
+
+    /* Estilos para a lista de formação educacional */
+    .e1 h1 {
+        font-size: 24px;
+    }
+
+    .e1 li {
+        font-weight: bold;
+    }
+
+    .e1 p {
+        font-size: 16px;
+    }
+
+
+
+    /* Estilos para a seção "Portfólio" */
+    .t2 {
+        background-color: #f0f0f0;
+        padding: 20px;
+        margin: 20px;
+        border: 1px solid #ccc;
+    }
+
+    /* Estilos para o título do portfólio e links */
+    .t2 h1 {
+        font-size: 24px;
+    }
+
+    .t2 p {
+        font-size: 16px;
+    }
+
+    .t2 a {
+        text-decoration: none;
+        color: #0073e6;
+    }
+
+    .b1{
+        text-align: center;
+    }
+
+    /* Estilos para rolagem suave */
+    html {
+        scroll-behavior: smooth;
+        scroll-padding-top: 130px;
+    }
+
+    .c1 {
+        background-color: #f0f0f0; /* Cor de fundo */
+        padding: 20px; /* Espaçamento interno */
+        padding-right: 45px; /* Espaçamento direito */
+        margin: 20px; /* Margem externa */
+        border: 1px solid #ccc; /* Borda */
+        text-align: center; /* Alinhar o conteúdo no centro */
+    }
+
+    .c1 h2 {
+        font-size: 24px; /* Tamanho da fonte do título "Entre em Contato" */
+    }
+
+    #formulario {
+        text-align: center; /* Alinhar os elementos do formulário à esquerda */
+    }
+
+    #formulario label {
+        display: block; /* Colocar cada rótulo em uma nova linha */
+        margin-bottom: 5px; /* Espaço inferior entre rótulos */
+    }
+
+    #nome, #mensagem {
+        width: 100%; /* Preencher a largura disponível */
+        padding: 10px; /* Espaçamento interno nos campos de entrada de texto */
+        margin-bottom: 10px; /* Espaço inferior entre os campos de entrada de texto */
+    }
+
+    button[type="submit"] {
+        background-color: #0073e6; /* Cor de fundo do botão */
+        color: #fff; /* Cor do texto do botão */
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    button[type="submit"]:hover {
+        background-color: #005bab; /* Cor de fundo do botão quando hover */
+    }
